@@ -1,0 +1,25 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: farmreel_development
+  host: localhost
+  pool: 5
+  port: 5432
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: farmreel_test
+  host: localhost
+  pool: 5
+  port: 5432
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: staging1db
+  username: wellsumo1
+  password: xeFIYr3Zf4Aa
+  host: staging1db.cfxw3apbdpn1.us-west-2.rds.amazonaws.com
+  pool: 5
+  port: 5432
